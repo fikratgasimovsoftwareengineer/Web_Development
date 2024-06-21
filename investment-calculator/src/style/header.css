@@ -1,0 +1,139 @@
+body{
+
+    margin-top: 0;
+    font-family: serif;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+    background: radial-gradient(#cacfcd,  #505c57);
+    color: #e1eeeb;
+    min-height: 100vh;
+}
+
+#header{
+    text-align: center;
+    margin: 3rem auto;
+
+}
+#header img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+    background-color: transparent;
+}
+  
+#header h1{
+    font-size: 1.8rem;
+}
+
+.input-group {
+    display: flex;  
+    flex-direction:  row;
+    position: absolute;
+    justify-content: space-between; 
+    align-items: center;
+   
+    width: 30rem;
+   
+    transform: translate(2rem, 2rem);
+
+}
+.input-item1 label{
+    color: #0a120f;
+    transform: translate(4rem, -1rem);
+}
+
+.input-group .input-item1{
+    display: flex;
+
+    flex-direction:  row;
+    width: 20rem;
+    align-items: center;
+    position: absolute;
+    width: 30rem;
+    
+    margin-bottom: -2rem;
+    margin-left: 3rem;
+
+    transform: translate(15rem,4rem);
+    
+
+    
+}
+
+
+.input-group .input-item2 {
+   
+    display: flex;
+    flex-direction:  row;   
+    width: 20rem;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 30rem;
+    margin-bottom: -2rem;
+    
+    transform: translate(60rem, 4rem);
+    
+}
+
+.input-item2 label{
+    color: #0a120f;
+    transform: translate(4rem, -1rem);
+}
+
+.flex2-block{
+    display: flex;  
+    flex-direction:  row;
+    
+    justify-content: space-between; 
+    align-items: center;
+    position:absolute;
+    width: 30rem;
+    transform: translate(20rem, 12rem);
+   
+}
+
+
+
+.flex2-block .input-item3{
+
+    display: flex;  
+    flex-direction:  row;
+    
+    justify-content: space-between; 
+    align-items: center;
+    position:absolute;
+    width: 30rem;
+    transform: translate(0rem,4rem);
+
+}
+.input-item3 label{
+    color: #0a120f;
+    transform: translate(4rem, -1rem);
+}
+
+.flex2-block .input-item4{
+
+    display: flex;  
+    flex-direction:  row;
+    
+    justify-content: space-between; 
+    align-items: center;
+    position:absolute;
+    width: 30rem;
+    transform: translate(42rem,4rem);
+
+}
+.input-item4 label{
+    color: #0a120f;
+    transform: translate(4rem, -1rem);
+}
+.borders {
+    border: 2px solid;
+    height: 100px;
+    width: 200px;
+    margin-left: 150px;
+    background-color:transparent;
+    
+}
+
